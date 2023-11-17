@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visitor Information</title>
+    <script src="api.js"></script>
+  </head>
+  <body>
+    <h1>Visitor Information</h1>
+    <div>Domain: <span id="domain"></span></div>
+    <div>IP Address: <span id="ip-address"></span></div>
+    <div>Browser Info: <span id="browser-info"></span></div>
+    <div>Device Info: <span id="device-info"></span></div>
+    <div>Visitor Count: <span id="visitor-count">0</span></div>
+    <button onclick="getLatestVisitorData()">Get Latest Visitor Data</button>
+  </body>
+</html>
